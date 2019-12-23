@@ -16,6 +16,7 @@ body {
 
 .menu {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 1rem;
@@ -95,7 +96,7 @@ body {
   text-align: center;
   width: 80%;
   max-width: 590px;
-  min-width: 300px;
+  min-width: 200px;
 }
 
 .search__bar {
