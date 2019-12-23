@@ -30,6 +30,7 @@ body {
   background: #f2f2f2;
   border-top: 1px solid #e4e4e4;
   font-size: 0.9em;
+  color: hsl(0,0%,20%);
 }
 
 .menu__item-list {
@@ -47,7 +48,7 @@ body {
 .menu__item {
   display: inline-block;
   text-decoration: none;
-  color: #000;
+  color: inherit;
   padding: 0.5rem 0.5rem;
   margin: 0.2rem 0.25rem;
   opacity: 0.8;
