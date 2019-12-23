@@ -88,3 +88,81 @@ body {
   border-radius: 3px;
   opacity: 1;
 }
+
+.main {
+  margin-top: 7rem;
+  justify-self: center;
+  text-align: center;
+  width: 80%;
+  max-width: 590px;
+  min-width: 300px;
+}
+
+.search__bar {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 0 1em;
+  box-sizing: border-box;
+  margin-top: 1em;
+}
+
+.search__input {
+  font-size: 1em;
+  flex: 1;
+  margin: 0 0.5em;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.search__icon {
+  height: 1.5em;
+  padding: .75em 0;
+  outline: none;
+  border: none;
+}
+
+.search__icon_magnify {
+  opacity: 0.25;
+}
+
+.search__icon_voice {
+  background: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 24px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.search__button-wrapper {
+margin-top: 2em;
+font-size: 0.9em;
+color: #5F6368;
+}
+
+.search__button {
+  font-size: inherit;
+  padding: 0 1em;
+  line-height: 2.5em;
+  background: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: inherit;
+  margin: 2px 4px;
+  cursor: pointer;
+}
+
+.search__button:hover {
+  background: #fafafa;
+  border: 1px solid #d8d8d8;
+  color: #111111;
+}
+
+.logo {
+  margin: 2em 0 0 0;
+}
